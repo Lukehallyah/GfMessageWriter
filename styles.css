@@ -28,8 +28,9 @@ main{
 
 }
 .btn-message{
+    font-size: 1.5em;
     height:20em;
-    width: 20em;
+    width: 60vw;
     border: 2px solid black;
     border-radius: 7%;
     display: flex;
@@ -37,7 +38,8 @@ main{
     align-items: center;
     padding:20px 20px;
     text-align:center;
-    
+    word-break: break-word;
+
 }
 h1{
     text-align: center;
@@ -53,4 +55,13 @@ h1{
 }
 p{
     font-size: 0.8em;
+}
+
+
+@media(max-width: 600px){
+    .btn-message{
+        width: 90vw;
+        max-width: 300px;
+
+    };
 }
