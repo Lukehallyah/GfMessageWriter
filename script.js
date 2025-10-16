@@ -35,13 +35,12 @@ btn.onclick=()=>{
         "There is beauty in those eyes of yours, you are lovely head to toe",
         "You are mine, and I am yours, We belong together my beautiful sunshine!",
         "I've never known love before I met you, true love forgiving and everlasting",
-        "I belong to you in every way, every part of me is yours and I love being yours baby,knowing that I belong my love",
+        "I belong to you in every way, every part of me is yours and I love being yours baby, knowing that I belong my love",
         "I think about all the things we'll do together one day, and smile with every memory and moment we share together baby",
         "One day we will catch dragonflies together, you'll have to show me how it's done chuuu",
         "One day my sunshine we will walk thru fields of sunflowers baby"
 
     ];
-
     const index=Math.floor(Math.random()*message.length);
     messagebox.textContent=message[index];
     messagebox.classList.add=("show");
