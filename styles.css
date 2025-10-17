@@ -102,4 +102,12 @@ p{
     h1{
         max-width: 90vw;
     }
+
+  .rose1,
+  .rose2 {
+    width: 80%;
+  }
+  .tulip2{
+    width:95%;
+  }
 }
