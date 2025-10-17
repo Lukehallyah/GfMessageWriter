@@ -60,14 +60,17 @@ h1{
     gap: 10px;
 
 }
+
+p{
+    font-size: 0.8em;
+}
+
 .text{
    font-size:4em;
    font-weight:bold;
 }
 
-p{
-    font-size: 0.8em;
-}
+
 
 .tulip2{
     position: absolute;
