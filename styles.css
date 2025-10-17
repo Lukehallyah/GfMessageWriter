@@ -38,8 +38,9 @@ main{
 .btn-message{
     position: relative;
     background-color: white;
-    height:25em;
-    width: 40vw;
+    font-size: 1.5em;
+    height:20em;
+    width: 60vw;
     border: 2px solid black;
     border-radius: 7%;
     display: flex;
@@ -70,19 +71,8 @@ h1{
 }
 
 p{
-    font-size: 1em;
-    text-align: center;
-    font-weight: 600;
+    font-size: 0.8em;
 }
-
-.text{
-   font-size: 1.5rem;
-   font-weight:500;
-   color: black;
-   font-style: italic;
-}
-
-
 
 .tulip2{
     position: absolute;
