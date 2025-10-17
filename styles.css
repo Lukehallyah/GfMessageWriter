@@ -16,6 +16,7 @@ body{
 }
 
 main{
+    position: relative;
     max-width: 600px;
     height: 100vh;
     display: flex;
@@ -88,14 +89,8 @@ p{
     width:80%;
 }
 
-.sunflower1{
-    position: absolute;
-    top: 0;
-    left:-7%;
-    height: 20%;
-    width: auto;
 
-}
+
 
 
 @media(max-width: 400px){
