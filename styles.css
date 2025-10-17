@@ -60,11 +60,30 @@ p{
     font-size: 0.8em;
 }
 
-.tulip1{
+.tulip2{
     position: absolute;
     top:70%;
-    left:2%;
     z-index: 1;
+    width:85%;
+    border-radius: 5% 5% 10% 10%;
+}
+
+.rose1{
+    position: absolute;
+    top:12%;
+    right:-2%;
+    rotate: 8deg;
+    height:20%;
+    width:80%;
+}
+
+.rose2{
+    position: absolute;
+    top:12%;
+    left:0%;
+    rotate: -5deg;
+    height:20%;
+    width:80%;
 }
 
 
