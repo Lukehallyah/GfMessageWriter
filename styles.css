@@ -1,6 +1,7 @@
 html{
     font-size: 16px;
   font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
 
 }
 
@@ -9,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 main{
@@ -39,12 +42,12 @@ main{
     padding:20px 20px;
     text-align:center;
     word-break: break-word;
-
+    z-index: 0;
 }
 h1{
     text-align: center;
-    font-size: 1.5em;
-    width: 20em;
+    font-size: 1.45em;
+    width: 10em;
 }
 .under{
     display: flex;
@@ -57,11 +60,21 @@ p{
     font-size: 0.8em;
 }
 
+.tulip1{
+    position: absolute;
+    top:70%;
+    left:2%;
+    z-index: 1;
+}
 
-@media(max-width: 600px){
+
+@media(max-width: 400px){
     .btn-message{
         width: 90vw;
         max-width: 300px;
 
     };
+    h1{
+        max-width: 90vw;
+    }
 }
