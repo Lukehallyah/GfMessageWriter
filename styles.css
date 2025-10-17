@@ -40,7 +40,7 @@ main{
     background-color: white;
     font-size: 1.5em;
     height:20em;
-    width: 60vw;
+    width: 40vw;
     border: 2px solid black;
     border-radius: 7%;
     display: flex;
@@ -72,6 +72,13 @@ h1{
 
 p{
     font-size: 0.8em;
+    text-align: center;
+}
+
+.text{
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .tulip2{
@@ -123,6 +130,6 @@ p{
   }
 
   .under{
-    width: 85%;
+    width: 95%;
   }
 }
