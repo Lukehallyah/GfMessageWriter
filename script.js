@@ -1,5 +1,5 @@
 const btn= document.querySelector(".btn");
-const messagebox=document.querySelector(".btn-message");
+const messagebox=document.querySelector(".text");
 
 
 btn.onclick=()=>{
