@@ -3,6 +3,7 @@ html{
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
   overflow: hidden;
+  height: 100%;
 }
 
 
@@ -16,6 +17,7 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 main{
@@ -112,6 +114,7 @@ p{
         text-align: center;
         padding: 2rem;
         font-family: Arial, sans-serif;
+
       }
       #error {
         color: red;
