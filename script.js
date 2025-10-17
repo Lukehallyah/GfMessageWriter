@@ -1,5 +1,5 @@
 const btn= document.querySelector(".btn");
-const messagebox=document.querySelector(".btn-message");
+const messagebox=document.querySelector(".text");
 
 
 btn.onclick=()=>{
@@ -43,7 +43,7 @@ btn.onclick=()=>{
     ];
     const index=Math.floor(Math.random()*message.length);
     messagebox.textContent=message[index];
-    messagebox.classList.add=("show");
+    messagebox.classList.add("show");
 };
 
 
