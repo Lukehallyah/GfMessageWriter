@@ -60,6 +60,10 @@ h1{
     gap: 10px;
 
 }
+.text{
+   font-size:2em;
+}
+
 p{
     font-size: 0.8em;
 }
