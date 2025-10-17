@@ -108,7 +108,18 @@ p{
 }
 
 
-
+ #password-gate {
+        text-align: center;
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+      }
+      #error {
+        color: red;
+        margin-top: 1rem;
+      }
+      #content {
+        display: none;
+      }
 
 
 @media(max-width: 400px){

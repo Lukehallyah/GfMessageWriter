@@ -1,3 +1,23 @@
+const correctPassword = "youandmebaby"; // CHANGE this to your password
+
+    function checkPassword() {
+      const input = document.getElementById("password").value;
+      const error = document.getElementById("error");
+      const content = document.getElementById("content");
+      const gate = document.getElementById("password-gate");
+
+      if (input === correctPassword) {
+        error.textContent = "";
+        gate.style.display = "none";
+        content.style.display = "block";
+      } else {
+        error.textContent = "Incorrect password. Try again.";
+      }
+    }
+
+
+
+
 const btn= document.querySelector(".btn");
 const messagebox=document.querySelector(".text");
 
@@ -44,6 +64,8 @@ btn.onclick=()=>{
     const index=Math.floor(Math.random()*message.length);
     messagebox.textContent=message[index];
     messagebox.classList.add("show");
-};
+  };
+
+
 
 
