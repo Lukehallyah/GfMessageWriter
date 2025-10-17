@@ -82,7 +82,7 @@ p{
 
 .rose1{
     position: absolute;
-    top:12%;
+    top:0%;
     right:-2%;
     rotate: 8deg;
     height:20%;
@@ -91,7 +91,7 @@ p{
 
 .rose2{
     position: absolute;
-    top:12%;
+    top:0%;
     left:0%;
     rotate: -5deg;
     height:20%;
