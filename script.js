@@ -72,7 +72,7 @@ btn.onclick=()=>{
         "My sultry desert rose",
         "My beautful shining sunflower!",
         "My brave Tiger",
-        "My JejJen",
+        "My JenJen",
         "My Jenelyn",
         "My light of my life",
         "You're the reason I smile",
