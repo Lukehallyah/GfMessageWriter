@@ -85,7 +85,21 @@ btn.onclick=()=>{
         "My Soulmate and my better half",
         "My One and my Only",
         "My brave beautiful Tiger",
-        "My beautiful, my beloved my lovely Binibini!"
+        "My beautiful, my beloved my lovely Binibini!",
+        "Show me those beautiful eyes of yours, let me look into your heart",
+        "If I can see your smile every day, my life is complete",
+        "I want to kiss every inch of you, you are beautful in every way",
+        "I adore you baby, I miss you every moment of every day, you make me happy to be alive",
+        "I love every moment that we have together baby",
+        "I want to hold you in these strong arms, I want to feel your warmth my love",
+        "You're safe with me po chu, I'll always be here for you",
+        "Sometimes I wish you could see yourself like I do, you are beautiful inside and out baby",
+        "You're stronger than you know, you have alot of strength inside of you baby",
+        "Life is beautiful, life is lovely all because of you",
+        "I'll fill your life with lots of snacks and foods chuuu",
+        "I want to walk thru fields of sunflowers, tulips, and roses with you",
+        "The moment when I first look into your eyes, I dream of that moment baby",
+        ""
 
     ];
     const index=Math.floor(Math.random()*message.length);
